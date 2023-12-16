@@ -12,7 +12,7 @@ const indexConfig = {
     file: "./dist/index.js",
     format: "es",
   },
-  external: ["react", "react/jsx-runtime", "flowise-embed"],
+  external: ["react", "react/jsx-runtime", "hubility-chat"],
   plugins: [
     resolve({ extensions }),
     babel({
